@@ -37,7 +37,7 @@ const Projects = () => {
           />
         </svg>
       ),
-      link: "", // You can add actual links here
+      link: "https://uat--kawada-pointcloud.netlify.app", // You can add actual links here
     },
     {
       title: "Athena Startup Platform",
@@ -108,7 +108,7 @@ const Projects = () => {
           />
         </svg>
       ),
-      link: "",
+      link: "https://uat--kts-video-analysis.netlify.app",
     },
     {
       title: "Bugsnap Internal Tool",
@@ -227,7 +227,7 @@ const Projects = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-8 h-8 bg-white dark:bg-gray-700 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors shadow-sm"
+                    className="min-w-8 min-h-8 bg-white dark:bg-gray-700 rounded-full flex items-center justify-center text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-colors shadow-sm"
                     aria-label={`Visit ${project.title} project`}
                   >
                     <svg

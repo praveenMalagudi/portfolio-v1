@@ -167,7 +167,7 @@ const About = () => {
                   <div className="grid grid-cols-2 gap-4">
                     <div className="bg-white/70 dark:bg-gray-700/70 backdrop-blur-sm rounded-lg p-4 text-center border border-gray-200/50 dark:border-gray-600/50 hover:shadow-md transition-all duration-300">
                       <div className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                        1.5+
+                        2+
                       </div>
                       <div className="text-sm text-gray-600 dark:text-gray-300">
                         Years Experience
