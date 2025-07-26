@@ -92,23 +92,19 @@ const Hero = () => {
               </p>
 
               {/* Key Highlights */}
-              {/* <div className="flex flex-wrap justify-center gap-3 mb-8">
-                {[
-                  "JavaScript",
-                  "TypeScript",
-                  "React.js",
-                  "Three.js",
-                  "Node.js",
-                ].map((highlight, index) => (
-                  <span
-                    key={highlight}
-                    className="inline-block bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm border border-blue-200/50 dark:border-blue-700/50 animate-fade-in-up"
-                    style={{ animationDelay: `${800 + index * 100}ms` }}
-                  >
-                    {highlight}
-                  </span>
-                ))}
-              </div> */}
+              <div className="flex flex-wrap justify-center gap-3 mb-8">
+                {["JavaScript", "TypeScript", "React.js", "Node.js"].map(
+                  (highlight, index) => (
+                    <span
+                      key={highlight}
+                      className="inline-block bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm border border-blue-200/50 dark:border-blue-700/50 animate-fade-in-up"
+                      style={{ animationDelay: `${800 + index * 100}ms` }}
+                    >
+                      {highlight}
+                    </span>
+                  )
+                )}
+              </div>
             </div>
 
             {/* Contact Info */}
